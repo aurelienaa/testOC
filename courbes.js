@@ -65,35 +65,6 @@ function draw() {
     for(x=-W/(2*pixx); x<=W/(2*pixx); x+=1/pixx) {
       y = f(x);
       cvs.lineTo(200+x*pixx, -150+H-y*pixy);
-
-    /* var u1=eval(ff)
-    cvs.moveTo(-200, H-u1*pix)
-    for(x=-W/(2*pix); x<=W/(2*pix); x+=1/pix) {
-      u1=eval(ff)
-      cvs.lineTo(200+x*pix, H-u1*pix)
-    } */
   }
-  // cvs.closePath();
   cvs.stroke();
 }
-
-/* tracer(g);
-
-function tracer(h)
-{
-/* var b = document.forms[0].formule1.value;
-if (b !="") {var f = "7+" + b}
-else {var f = "0"}
-var c = document.forms[0].formule2.value;
-if (c !="") {var ff = "7+" + c}
-else {var ff = "0"}; 
-draw(h);
-} */
-
-// fonction
-
-
-/* function trace() {
-  graphique();
-  draw(g);
-} */
