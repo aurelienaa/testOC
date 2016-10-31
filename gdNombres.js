@@ -1,3 +1,4 @@
+// Page en construction
 
 var a_gdNombreInt = document.getElementById("a_gdNombre").value;
 var a_gdNombre = a_gdNombreInt+"";
