@@ -9,7 +9,7 @@ switch (expr) {
     break;
     case 3: ycalc = Math.sin(u*u);
     break;
-    case 4: ycalc = Math.cos(3*u);
+    case 4: ycalc = Math.cos(Math.sin(u * u));
     break;
     case 5: ycalc = Math.cos(Math.exp(-u));
     break;
